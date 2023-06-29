@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class Personal extends Component {
+class PersonalForm extends Component {
     render () {
        return (
         <>
@@ -39,4 +39,4 @@ class Personal extends Component {
     }
 }
 
-export default Personal
+export default PersonalForm

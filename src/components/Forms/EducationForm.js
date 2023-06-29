@@ -1,6 +1,12 @@
 import { Component } from "react";
 
-class Education extends Component {
+export const getInfo = () => {
+    let instituition = document.getElementsByClassName('instituition-input')
+     alert('Button works')
+     alert(instituition.value)
+ }
+
+class EducationForm extends Component {
     render() {
         return (
             <>
@@ -35,7 +41,7 @@ class Education extends Component {
                         </div>
                     </div>
                     <div className="buttons">
-                        <button id="educationAddBtn">Add</button>
+                        <button id="educationAddBtn" onClick={getInfo}>Add</button>
                         <button id="educationDeleteBtn">Delete</button>
                     </div>
                 </div>
@@ -44,4 +50,4 @@ class Education extends Component {
     }
 }
 
-export default Education
+export default EducationForm

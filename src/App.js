@@ -1,15 +1,16 @@
 import Header from "./components/Header";
-import Personal from "./components/Personal";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
+import PersonalForm from "./components/Forms/PersonalForm";
+import EducationForm from "./components/Forms/EducationForm";
+import ExperienceForm from "./components/Forms/ExperienceForm";
+
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Personal />
-      <Education />
-      <Experience />
+      <PersonalForm />
+      <EducationForm />
+      <ExperienceForm />
     </div>
   );
 }

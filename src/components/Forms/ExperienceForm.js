@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class Experience extends Component {
+class ExperienceForm extends Component {
     render() {
         return (
             <>
@@ -40,4 +40,4 @@ class Experience extends Component {
     }
 }
 
-export default Experience
+export default ExperienceForm
