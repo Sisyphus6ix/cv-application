@@ -2,8 +2,8 @@ import { Component } from "react";
 
 export const getInfo = () => {
     let instituition = document.getElementsByClassName('instituition-input')
+    console.log(instituition, 'EducationForm')
      alert('Button works')
-     alert(instituition.value)
  }
 
 class EducationForm extends Component {

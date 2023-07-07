@@ -7,10 +7,10 @@ import ExperienceForm from "./components/Forms/ExperienceForm";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <PersonalForm />
+      {/* <Header /> */}
+      {/* <PersonalForm /> */}
       <EducationForm />
-      <ExperienceForm />
+      {/* <ExperienceForm /> */}
     </div>
   );
 }

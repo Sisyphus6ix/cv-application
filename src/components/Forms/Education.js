@@ -6,18 +6,14 @@ import EducationForm from "./EducationForm";
 
 export const getInfo = () => {
    let instituition = document.getElementsByClassName('instituition-input')
+   console.log(instituition, 'Education')
     alert('Button works')
-    alert(instituition.value)
 }
 
 function Education (props) {
     // Trying to add an event to the add button in the education section
     let testBtn = document.getElementById('educationAddBtn')
     
-    
-    return (
-        <EducationForm/>
-    )
 }
 
 export default Education
